@@ -27,7 +27,7 @@ license_name: MIT License
 qr:
   Mars3D.cia: https://db.universal-team.net/assets/images/qr/mars3d-cia.png
 source: https://github.com/BotRandomness/Mars3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Mars
