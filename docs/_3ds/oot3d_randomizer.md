@@ -21,7 +21,6 @@ downloads:
 github: gamestabled/OoT3D_Randomizer
 icon: https://raw.githubusercontent.com/gamestabled/OoT3D_Randomizer/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/gamestabled/OoT3D_Randomizer/refs/heads/main/banner.png
-image_length: 92320
 layout: app
 license: other
 license_name: Other
@@ -212,4 +211,5 @@ update_notes: '<p dir="auto">This is a patch release that backports various bug-
 updated: '2026-03-13T18:29:46Z'
 version: v4.0.1
 version_title: v4.0.1
+wiki: https://github.com/gamestabled/OoT3D_Randomizer/wiki
 ---

@@ -3,8 +3,6 @@ author: PeamoNetwork
 avatar: https://avatars.githubusercontent.com/u/246450208?v=4
 categories:
 - utility
-color: '#499442'
-color_bg: '#3f8039'
 created: '2026-01-10T15:19:55Z'
 description: Connect to Peamo Network services
 download_page: https://github.com/PeamoNetwork/peamo-nimbus/releases

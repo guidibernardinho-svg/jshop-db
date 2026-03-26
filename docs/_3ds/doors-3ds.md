@@ -13,7 +13,6 @@ download_page: https://github.com/carmander152/Doors-3DS/releases
 github: carmander152/Doors-3DS
 icon: https://raw.githubusercontent.com/carmander152/Doors-3DS/main/icon.png
 image: https://raw.githubusercontent.com/carmander152/Doors-3DS/main/banner.png
-image_length: 38377
 layout: app
 prerelease:
   download_page: https://github.com/carmander152/Doors-3DS/releases/tag/Beta-v0.7.3

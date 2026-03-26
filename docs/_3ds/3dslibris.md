@@ -3,8 +3,6 @@ author: Rigle
 avatar: https://avatars.githubusercontent.com/u/8595185?v=4
 categories:
 - app
-color: '#bfa387'
-color_bg: '#806d5a'
 created: '2026-03-12T11:06:40Z'
 description: An ebook reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
@@ -28,7 +26,6 @@ downloads:
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
-image_length: 48063
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

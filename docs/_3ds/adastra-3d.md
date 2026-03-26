@@ -16,7 +16,6 @@ downloads:
 github: KrisTheDog/ADASTRA3D-for-3ds
 icon: https://raw.githubusercontent.com/KrisTheDog/ADASTRA3D-for-3ds/refs/heads/main/incon.png
 image: https://raw.githubusercontent.com/KrisTheDog/ADASTRA3D-for-3ds/refs/heads/main/banner.png
-image_length: 19492
 layout: app
 qr:
   Adastra3D.cia: https://db.universal-team.net/assets/images/qr/adastra3d-cia.png
