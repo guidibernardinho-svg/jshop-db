@@ -3,8 +3,6 @@ author: William278
 avatar: https://avatars.githubusercontent.com/u/31187453?v=4
 categories:
 - game
-color: '#483326'
-color_bg: '#483326'
 created: '2023-07-06T00:11:28Z'
 description: Breaking Bad, as a Nintendo DS game! Master the art of the cook and prepare
   the perfect batch—lest you meet the wrong end of Gus. Hone your cook in both Singleplayer

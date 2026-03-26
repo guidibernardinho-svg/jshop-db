@@ -20,7 +20,6 @@ downloads:
 github: vinegar77/hrt-3ds
 icon: https://raw.githubusercontent.com/vinegar77/hrt-3ds/main/resources/icon.png
 image: https://raw.githubusercontent.com/vinegar77/hrt-3ds/main/resources/hrtbanner.png
-image_length: 57119
 layout: app
 license: mit
 license_name: MIT License
@@ -57,5 +56,6 @@ update_notes: '<h2 dir="auto">hrt3DS 1.1.2</h2>
 updated: '2025-10-23T06:17:27Z'
 version: v1.1.2
 version_title: hrt3ds v1.1.2 (o3DS Improvement Patch)
+wiki: https://github.com/vinegar77/hrt-3ds/wiki
 ---
 Horse Race Tests on 3DS! The authentic HRT experience (o3DS/o2DS models may experience slowdown with many horses at once.)
