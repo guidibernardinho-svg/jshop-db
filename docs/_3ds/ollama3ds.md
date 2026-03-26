@@ -3,6 +3,8 @@ author: Dzhmelyk135
 avatar: https://avatars.githubusercontent.com/u/204916344?v=4
 categories:
 - app
+color: '#cecece'
+color_bg: '#808080'
 created: '2026-02-27T17:20:54Z'
 description: An ollama client for inference on a modded Nintendo 3DS (family of) console(s)
   with models on a OLLAMA server
@@ -29,5 +31,4 @@ update_notes: <p dir="auto">First released version</p>
 updated: '2026-02-27T18:04:09Z'
 version: latest
 version_title: '1.0'
-wiki: https://github.com/Dzhmelyk135/Ollama3DS/wiki
 ---

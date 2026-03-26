@@ -81,5 +81,4 @@ update_notes: '<p dir="auto">3DSident has been re-written in C++ which makes use
 updated: '2026-03-25T12:39:41Z'
 version: '0.94'
 version_title: 3DSident v0.9.4
-wiki: https://github.com/joel16/3DSident/wiki
 ---
