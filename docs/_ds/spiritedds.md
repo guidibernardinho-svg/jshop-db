@@ -3,8 +3,6 @@ author: KahnerC
 avatar: https://avatars.githubusercontent.com/u/160319898?v=4
 categories:
 - game
-color: '#4b433a'
-color_bg: '#4b433a'
 created: '2024-02-17T10:44:15Z'
 description: An uninspired card game for the Nintendo DS.
 download_page: https://github.com/KahnerC/SpiritedDS/releases
@@ -16,7 +14,6 @@ downloads:
 github: KahnerC/SpiritedDS
 icon: https://raw.githubusercontent.com/KahnerC/SpiritedDS/main/icon.png
 image: https://raw.githubusercontent.com/KahnerC/SpiritedDS/main/banner.png
-image_length: 117506
 layout: app
 qr:
   spirited_ds.nds: https://db.universal-team.net/assets/images/qr/spirited_ds-nds.png
