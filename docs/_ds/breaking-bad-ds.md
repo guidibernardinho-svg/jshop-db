@@ -3,6 +3,8 @@ author: William278
 avatar: https://avatars.githubusercontent.com/u/31187453?v=4
 categories:
 - game
+color: '#483326'
+color_bg: '#483326'
 created: '2023-07-06T00:11:28Z'
 description: Breaking Bad, as a Nintendo DS game! Master the art of the cook and prepare
   the perfect batch—lest you meet the wrong end of Gus. Hone your cook in both Singleplayer
@@ -41,7 +43,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/breaking-bad-ds/title-screen.png
 source: https://github.com/WiIIiam278/breaking-bad-ds
-stars: 186
+stars: 185
 systems:
 - DS
 title: Breaking Bad DS
