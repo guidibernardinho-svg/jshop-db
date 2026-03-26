@@ -3,6 +3,8 @@ author: Kris The Dog
 avatar: https://avatars.githubusercontent.com/u/124262493?v=4
 categories:
 - game
+color: '#b4a5a9'
+color_bg: '#807578'
 created: '2026-03-01T17:36:32Z'
 description: port of NikoDevVR's Adastra 3D for new 3DS
 download_page: https://github.com/KrisTheDog/ADASTRA3D-for-3ds/releases
