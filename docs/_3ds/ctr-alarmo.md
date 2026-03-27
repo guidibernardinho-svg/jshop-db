@@ -3,8 +3,6 @@ author: Felix Homebrew
 avatar: https://avatars.githubusercontent.com/u/120497980?v=4
 categories:
 - app
-color: '#401313'
-color_bg: '#401313'
 created: '2025-09-28T23:41:46Z'
 description: A silly alarm clock app for the Nintendo 3DS
 download_page: https://github.com/FelixHomebrew/CtrAlarmo/releases
@@ -20,10 +18,7 @@ downloads:
 github: FelixHomebrew/CtrAlarmo
 icon: https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/icon_48.png
 image: https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/banner.png
-image_length: 6751
 layout: app
-license: mit
-license_name: MIT License
 qr:
   CtrAlarmo.cia: https://db.universal-team.net/assets/images/qr/ctralarmo-cia.png
 screenshots:
