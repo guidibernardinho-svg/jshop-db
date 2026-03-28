@@ -29,6 +29,7 @@ jobs:
             git \
             wget \
             libmbedtls-dev \
+            libbz2-dev \
             liblzma-dev \
             libyaml-dev \
             zlib1g-dev
