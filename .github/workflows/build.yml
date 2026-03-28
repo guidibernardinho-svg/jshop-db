@@ -11,8 +11,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: devkitpro/devkitarm:latest
 
     steps:
       - name: Checkout
@@ -20,12 +18,22 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Setup devkitPro
+        uses: devkitpro/pacman-action@v1.0.3
+        with:
+          packages: >-
+            3ds-dev
+            3ds-curl
+            3ds-bzip2
+            3ds-libarchive
+            3ds-liblzma
+            3ds-libzstd
+
       - name: Instalar dependências do sistema
         run: |
-          apt-get update
-          apt-get install -y \
+          sudo apt-get update
+          sudo apt-get install -y \
             build-essential \
-            git \
             cmake \
             libmbedtls-dev \
             libbz2-dev \
@@ -34,37 +42,24 @@ jobs:
             zlib1g-dev \
             pkg-config
 
-      - name: Instalar dependências 3DS
-        run: |
-          dkp-pacman -Syu --noconfirm
-          dkp-pacman -S --noconfirm \
-            3ds-dev \
-            3ds-curl \
-            3ds-bzip2 \
-            3ds-libarchive \
-            3ds-liblzma \
-            3ds-libzstd
-
       - name: Instalar bannertool
         run: |
           git clone https://github.com/Steveice10/bannertool.git
           cd bannertool
           make
-          cp output/linux-x86_64/bannertool /usr/local/bin/bannertool
-          chmod +x /usr/local/bin/bannertool
-          bannertool 2>&1 | head -1
+          sudo cp output/linux-x86_64/bannertool /usr/local/bin/bannertool
 
       - name: Instalar makerom
         run: |
           git clone https://github.com/3DSGuy/Project_CTR.git
           cd Project_CTR/makerom
           make
-          cp makerom /usr/local/bin/makerom
-          chmod +x /usr/local/bin/makerom
-          makerom 2>&1 | head -1
+          sudo cp makerom /usr/local/bin/makerom
 
       - name: Build
-        run: make
+        run: |
+          export PATH=$DEVKITPRO/tools/bin:$DEVKITARM/bin:$PATH
+          make
 
       - name: Upload CIA
         uses: actions/upload-artifact@v4
