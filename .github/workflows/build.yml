@@ -20,7 +20,20 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Install dependências 3DS
+      - name: Instalar dependências do sistema
+        run: |
+          apt-get update
+          apt-get install -y \
+            cmake \
+            build-essential \
+            git \
+            wget \
+            libmbedtls-dev \
+            liblzma-dev \
+            libyaml-dev \
+            zlib1g-dev
+
+      - name: Instalar dependências 3DS
         run: |
           dkp-pacman -Syu --noconfirm
           dkp-pacman -S --noconfirm \
@@ -31,9 +44,8 @@ jobs:
             3ds-liblzma \
             3ds-libzstd
 
-      - name: Instalar bannertool (compilar do source)
+      - name: Instalar bannertool
         run: |
-          apt-get update && apt-get install -y cmake build-essential
           git clone https://github.com/carstene1ns/3ds-bannertool bannertool
           cd bannertool
           cmake -B build -DCMAKE_BUILD_TYPE=Release
@@ -41,7 +53,7 @@ jobs:
           cp build/bannertool /usr/local/bin/bannertool
           chmod +x /usr/local/bin/bannertool
 
-      - name: Instalar makerom (compilar do source)
+      - name: Instalar makerom
         run: |
           git clone https://github.com/3DSGuy/Project_CTR makerom_src
           cd makerom_src/makerom
