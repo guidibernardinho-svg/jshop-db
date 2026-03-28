@@ -24,6 +24,56 @@ image_length: 28629
 layout: app
 license: mit
 license_name: MIT License
+prerelease:
+  download_page: https://github.com/Unitendo/aurorachat/releases/tag/v0.5.0
+  downloads:
+    aurorachat.3dsx:
+      size: 1185924
+      size_str: 1 MiB
+      url: https://github.com/Unitendo/aurorachat/releases/download/v0.5.0/aurorachat.3dsx
+    aurorachat.cia:
+      size: 1430464
+      size_str: 1 MiB
+      url: https://github.com/Unitendo/aurorachat/releases/download/v0.5.0/aurorachat.cia
+  qr:
+    aurorachat.cia: https://db.universal-team.net/assets/images/qr/prerelease/aurorachat-cia.png
+  update_notes: '<h1 dir="auto">Changelog</h1>
+
+    <ul dir="auto">
+
+    <li>Added drawings</li>
+
+    <li>Added Miis (NOTE: They currently rely on PNIDs. This is soon to be replaced
+    with the Mii Selector applet.)</li>
+
+    <li>Added tabs</li>
+
+    <li>Changed GUI majorly</li>
+
+    <li>Made autoscroll somewhat better (it is what it is)</li>
+
+    <li>Much, much more that I forgot</li>
+
+    </ul>'
+  update_notes_md: '# Changelog
+
+    - Added drawings
+
+    - Added Miis (NOTE: They currently rely on PNIDs. This is soon to be replaced
+    with the Mii Selector applet.)
+
+    - Added tabs
+
+    - Changed GUI majorly
+
+    - Made autoscroll somewhat better (it is what it is)
+
+    - Much, much more that I forgot
+
+    '
+  updated: '2026-03-28T00:06:40Z'
+  version: v0.5.0
+  version_title: 'v0.5.0: Functionally Fabulous'
 qr:
   aurorachat-3ds.cia: https://db.universal-team.net/assets/images/qr/aurorachat-3ds-cia.png
 source: https://github.com/Unitendo/aurorachat
