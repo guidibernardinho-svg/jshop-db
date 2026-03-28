@@ -1,0 +1,33 @@
+{
+  "github": "seuusuario/meuapp",
+  "systems": ["3DS"],
+  "categories": ["utility"],
+  "image": "https://example.com/image.png",
+  "icon": "https://example.com/icon.png"
+}
+```
+
+---
+
+### 5. Ativar o GitHub Pages
+
+1. Vá em **Settings → Pages**
+2. Source: `Deploy from branch` → branch `master` → pasta `/docs`
+3. Seu site ficará em `https://seuusuario.github.io/jshop`
+
+---
+
+### 6. Configurar o GitHub Actions (atualização automática)
+
+O Universal-DB atualiza automaticamente a cada hora (ou 6 horas dependendo da prioridade do app) usando GitHub Actions.  O workflow já vem configurado na fork — você só precisa adicionar um **GitHub Token** como secret:
+
+1. **Settings → Secrets and variables → Actions**
+2. Adicione: `GH_TOKEN` com um Personal Access Token seu
+
+---
+
+### 7. Usar na Universal-Updater no 3DS
+
+No app Universal-Updater, vá em **UniStore → Add Store** e coloque a URL:
+```
+https://seuusuario.github.io/jshop/unistore/jshop.unistore
