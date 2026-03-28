@@ -24,15 +24,15 @@ jobs:
         run: |
           apt-get update
           apt-get install -y \
-            cmake \
             build-essential \
             git \
-            wget \
+            cmake \
             libmbedtls-dev \
             libbz2-dev \
             liblzma-dev \
             libyaml-dev \
-            zlib1g-dev
+            zlib1g-dev \
+            pkg-config
 
       - name: Instalar dependências 3DS
         run: |
@@ -47,20 +47,21 @@ jobs:
 
       - name: Instalar bannertool
         run: |
-          git clone https://github.com/carstene1ns/3ds-bannertool bannertool
+          git clone https://github.com/Steveice10/bannertool.git
           cd bannertool
-          cmake -B build -DCMAKE_BUILD_TYPE=Release
-          cmake --build build
-          cp build/bannertool /usr/local/bin/bannertool
+          make
+          cp output/linux-x86_64/bannertool /usr/local/bin/bannertool
           chmod +x /usr/local/bin/bannertool
+          bannertool 2>&1 | head -1
 
       - name: Instalar makerom
         run: |
-          git clone https://github.com/3DSGuy/Project_CTR makerom_src
-          cd makerom_src/makerom
+          git clone https://github.com/3DSGuy/Project_CTR.git
+          cd Project_CTR/makerom
           make
           cp makerom /usr/local/bin/makerom
           chmod +x /usr/local/bin/makerom
+          makerom 2>&1 | head -1
 
       - name: Build
         run: make
