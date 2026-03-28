@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/Bilbard/classof3ds/releases/tag/v1.9
   downloads:
     classof3dsru.3dsx:
-      size: 237896872
+      size: 237896860
       size_str: 226 MiB
       url: https://github.com/Bilbard/classof3ds/releases/download/v1.9/classof3dsru.3dsx
     classof3dsru.cia:
