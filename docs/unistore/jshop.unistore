@@ -1,0 +1,14 @@
+{
+  "storeInfo": {
+    "title": "Jshop",
+    "author": "SeuUsuario",
+    "description": "Jshop - A homebrew DB for 3DS",
+    "url": "https://seuusuario.github.io/jshop/unistore/jshop.unistore",
+    "file": "jshop.unistore",
+    "sheetURL": "https://seuusuario.github.io/jshop/unistore/jshop.t3x",
+    "sheet": "jshop.t3x",
+    "revision": 1,
+    "version": 4
+  },
+  "storeContent": [ ... ]
+}
