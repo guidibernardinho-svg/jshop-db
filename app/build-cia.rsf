@@ -1,0 +1,76 @@
+BasicInfo:
+  Title:          Jshop
+  CompanyCode:    "00"
+  ProductCode:    CTR-P-JSHP
+  ContentType:    Application
+  Logo:           Licensed
+
+RomFs:
+  RootPath:       romfs
+
+ExeFs:
+  Logo:
+    SourcePath:   logo.bcma.lz
+
+SystemControlInfo:
+  SaveDataSize:   128KB
+
+AccessControlInfo:
+  UseOtherVariationSaveData: false
+  UseExtSaveData:            false
+  UseExtendedSaveDataAccessControl: false
+  FileSystemAccess:
+    - CategorySystemApplication
+    - CategoryHardwareCheck
+  IoAccessControl:
+    - FsMountNand
+    - FsMountNandRo
+    - FsMountTwln
+    - FsMountWnand
+    - FsMountCardSPI
+    - UseSdif3
+    - CreateSeed
+    - UseCardSPI
+    - SDApplication
+    - FsMountSdmc
+  MemoryMappingAccess:
+    - LinearMapping
+  KernelFlags:
+    - AllowDebug
+    - ForceDebug
+  ServiceAccessControl:
+    - APT:U
+    - APT:S
+    - ac:u
+    - am:net
+    - boss:P
+    - boss:U
+    - cam:u
+    - cfg:u
+    - frd:u
+    - fs:USER
+    - gsp::Gpu
+    - hid:USER
+    - http:C
+    - ir:USER
+    - ir:u
+    - ir:rst
+    - mic:u
+    - ndm:u
+    - news:s
+    - nwm::UDS
+    - ptm:u
+    - ptm:sysm
+    - pxi:dev
+    - socket:
+    - soc:U
+    - ssl:C
+    - y2r:u
+
+SystemCallAccess:
+  All: true
+
+AppCpuTimeLimit: 30
+IdealProcessor: 0
+AffinityMask: 1
+ThreadPriority: 48
