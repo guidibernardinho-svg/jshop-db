@@ -28,7 +28,7 @@ screenshots:
 - description: White space ds 3
   url: https://db.universal-team.net/assets/images/screenshots/white-space-ds/white-space-ds-3.png
 source: https://github.com/cavv-dev/WHITE-SPACE-DS
-stars: 0
+stars: 1
 systems:
 - DS
 title: WHITE SPACE DS

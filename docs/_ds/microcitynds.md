@@ -21,7 +21,7 @@ layout: app
 qr:
   MicroCityNDS.nds: https://db.universal-team.net/assets/images/qr/microcitynds-nds.png
 source: https://github.com/AzizBgBoss/MicroCityNDS
-stars: 1
+stars: 2
 systems:
 - DS
 title: MicroCityNDS

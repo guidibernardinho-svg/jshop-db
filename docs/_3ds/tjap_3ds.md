@@ -53,6 +53,8 @@ prerelease:
 
     <li><code class="notranslate">BGIMG:</code>タグが機能して無かったのを修正</li>
 
+    <li>譜面の最大行数が8192行から16384行に拡張しました。</li>
+
     <li>一部演出の追加</li>
 
     </ul>
@@ -79,6 +81,9 @@ prerelease:
     <li>Fixed an issue where the <code class="notranslate">BGIMG:</code> tag was not
     working.</li>
 
+    <li>The maximum number of lines in a musical score has been increased from 8192
+    to 16384.</li>
+
     <li>Addition of some productions</li>
 
     </ul>'
@@ -97,6 +102,8 @@ prerelease:
     時限爆弾音符は、連打の終点が来るまでに指定した打数ドンを叩かないと不可判定になります。
 
     - `BGIMG:`タグが機能して無かったのを修正
+
+    - 譜面の最大行数が8192行から16384行に拡張しました。
 
     - 一部演出の追加
 
@@ -118,6 +125,9 @@ prerelease:
     strokes are not hit before the end of the Roll.
 
     - Fixed an issue where the `BGIMG:` tag was not working.
+
+    - The maximum number of lines in a musical score has been increased from 8192
+    to 16384.
 
     - Addition of some productions'
   updated: '2026-03-02T03:04:53Z'

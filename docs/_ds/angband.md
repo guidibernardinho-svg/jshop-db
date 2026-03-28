@@ -18,60 +18,85 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-73-g1e585edfd
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-78-g4ce58ed04
   downloads:
-    Angband-4.2.6-73-g1e585edfd-3ds.zip:
-      size: 24671284
+    Angband-4.2.6-78-g4ce58ed04-3ds.zip:
+      size: 24671396
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-73-g1e585edfd/Angband-4.2.6-73-g1e585edfd-3ds.zip
-    Angband-4.2.6-73-g1e585edfd-nds.zip:
-      size: 23330827
+      url: https://github.com/angband/angband/releases/download/4.2.6-78-g4ce58ed04/Angband-4.2.6-78-g4ce58ed04-3ds.zip
+    Angband-4.2.6-78-g4ce58ed04-nds.zip:
+      size: 23330863
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-73-g1e585edfd/Angband-4.2.6-73-g1e585edfd-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-78-g4ce58ed04/Angband-4.2.6-78-g4ce58ed04-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Alter binary searches to avoid the possiblity of integer overflow by <a class="user-mention
+    <li>workflows: better compatibility with Node.js 24 by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/1e585edfddc275ef6719f940a4caeb2de51ca75e/hovercard"
-    href="https://github.com/angband/angband/commit/1e585edfddc275ef6719f940a4caeb2de51ca75e"><tt>1e585ed</tt></a></li>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4080451523" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6538"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6538/hovercard"
+    href="https://github.com/angband/angband/pull/6538">#6538</a></li>
 
-    <li>Gervais tiles: add assignment for Beorn''s bear form by <a class="user-mention
+    <li>Plug exploit for charges in store by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4083974367" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6539"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6539/hovercard"
+    href="https://github.com/angband/angband/pull/6539">#6539</a></li>
+
+    <li>Shockbolt tiles:  add assignment for the Knight''s Shield by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/7e8b58325e3b22393030b3f3b0399a9ff12994e4/hovercard"
-    href="https://github.com/angband/angband/commit/7e8b58325e3b22393030b3f3b0399a9ff12994e4"><tt>7e8b583</tt></a></li>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4090532874" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6543"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6543/hovercard"
+    href="https://github.com/angband/angband/pull/6543">#6543</a></li>
 
-    <li>Make RNG''s z0, z1, and z2 private by <a class="user-mention notranslate"
+    <li>Nomad''s tiles:  add assignments for Sip of Miruvor and Draught of the Ents
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4094834487" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6546"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6546/hovercard"
+    href="https://github.com/angband/angband/pull/6546">#6546</a></li>
+
+    <li>SDL2: better error handling in pui-misc.c by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4053761807" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6534"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6534/hovercard"
-    href="https://github.com/angband/angband/pull/6534">#6534</a></li>
+    data-id="4095268491" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6547"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6547/hovercard"
+    href="https://github.com/angband/angband/pull/6547">#6547</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-70-gbd15a52b0...4.2.6-73-g1e585edfd"><tt>4.2.6-70-gbd15a52b0...4.2.6-73-g1e585edfd</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-73-g1e585edfd...4.2.6-78-g4ce58ed04"><tt>4.2.6-73-g1e585edfd...4.2.6-78-g4ce58ed04</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * Alter binary searches to avoid the possiblity of integer overflow by @backwardsEric
-    in https://github.com/angband/angband/commit/1e585edfddc275ef6719f940a4caeb2de51ca75e
+    * workflows: better compatibility with Node.js 24 by @backwardsEric in https://github.com/angband/angband/pull/6538
 
-    * Gervais tiles: add assignment for Beorn''s bear form by @backwardsEric in https://github.com/angband/angband/commit/7e8b58325e3b22393030b3f3b0399a9ff12994e4
+    * Plug exploit for charges in store by @backwardsEric in https://github.com/angband/angband/pull/6539
 
-    * Make RNG''s z0, z1, and z2 private by @backwardsEric in https://github.com/angband/angband/pull/6534
+    * Shockbolt tiles:  add assignment for the Knight''s Shield by @backwardsEric
+    in https://github.com/angband/angband/pull/6543
+
+    * Nomad''s tiles:  add assignments for Sip of Miruvor and Draught of the Ents
+    by @backwardsEric in https://github.com/angband/angband/pull/6546
+
+    * SDL2: better error handling in pui-misc.c by @backwardsEric in https://github.com/angband/angband/pull/6547
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-70-gbd15a52b0...4.2.6-73-g1e585edfd'
-  updated: '2026-03-17T12:38:03Z'
-  version: 4.2.6-73-g1e585edfd
-  version_title: 4.2.6-73-g1e585edfd
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-73-g1e585edfd...4.2.6-78-g4ce58ed04'
+  updated: '2026-03-24T13:19:01Z'
+  version: 4.2.6-78-g4ce58ed04
+  version_title: 4.2.6-78-g4ce58ed04
 source: https://github.com/angband/angband
-stars: 1494
+stars: 1495
 systems:
 - 3DS
 - DS
