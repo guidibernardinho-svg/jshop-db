@@ -31,36 +31,39 @@ jobs:
             3ds-liblzma \
             3ds-libzstd
 
-      - name: Instalar bannertool
+      - name: Instalar bannertool (compilar do source)
         run: |
-          wget https://github.com/Steveice10/bannertool/releases/download/1.2.0/bannertool-linux-x86_64.zip
-          unzip bannertool-linux-x86_64.zip -d /tmp/bannertool
-          cp /tmp/bannertool/linux-x86_64/bannertool $DEVKITARM/bin/bannertool
-          chmod +x $DEVKITARM/bin/bannertool
+          apt-get update && apt-get install -y cmake build-essential
+          git clone https://github.com/carstene1ns/3ds-bannertool bannertool
+          cd bannertool
+          cmake -B build -DCMAKE_BUILD_TYPE=Release
+          cmake --build build
+          cp build/bannertool /usr/local/bin/bannertool
+          chmod +x /usr/local/bin/bannertool
 
-      - name: Instalar makerom
+      - name: Instalar makerom (compilar do source)
         run: |
-          wget https://github.com/3DSGuy/Project_CTR/releases/download/makerom-v0.18.4/makerom-v0.18.4-ubuntu_x86_64.zip
-          unzip makerom-v0.18.4-ubuntu_x86_64.zip -d /tmp/makerom
-          cp /tmp/makerom/makerom $DEVKITARM/bin/makerom
-          chmod +x $DEVKITARM/bin/makerom
+          git clone https://github.com/3DSGuy/Project_CTR makerom_src
+          cd makerom_src/makerom
+          make
+          cp makerom /usr/local/bin/makerom
+          chmod +x /usr/local/bin/makerom
 
       - name: Build
         run: make
 
-      - name: Upload CIA (artifact)
+      - name: Upload CIA
         uses: actions/upload-artifact@v4
         with:
           name: Jshop.cia
           path: Jshop.cia
 
-      - name: Upload 3DSX (artifact)
+      - name: Upload 3DSX
         uses: actions/upload-artifact@v4
         with:
           name: Jshop.3dsx
           path: Jshop.3dsx
 
-      # Publica no Release automaticamente quando for uma tag
       - name: Upload para Release
         if: github.event_name == 'release'
         uses: softprops/action-gh-release@v2
